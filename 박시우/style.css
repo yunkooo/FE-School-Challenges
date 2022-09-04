@@ -1,0 +1,52 @@
+h2,
+p {
+  margin: initial;
+  padding: initial;
+}
+
+body {
+  background-image: url("./images/bg.png");
+}
+
+.animal-card {
+  margin: 30px;
+}
+
+.animal-card__profile {
+  display: block;
+  margin: auto;
+}
+
+.animal-card__grass {
+  width: 100%;
+}
+
+.animal-card__container {
+  margin: auto;
+  width: 310px;
+  height: 300px;
+  box-sizing: border-box;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #93572e;
+  box-shadow: 0 10px #4a260b;
+}
+
+.animal-card__heading,
+.animal-card__content {
+  color: white;
+}
+
+.animal-card__header {
+  margin-bottom: 7px;
+  font-size: 33px;
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+}
+.animal-card__text {
+  font-size: 17px;
+  line-height: 1.35;
+}
+.animal-card__content {
+  padding: 0 24px 24px 24px;
+}
