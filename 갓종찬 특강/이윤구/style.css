@@ -1,0 +1,72 @@
+/* Reset */
+h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-image: url(./images/bg.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.wrapper {
+    margin: 10% auto;
+    width: 300px;
+}
+
+.animal-box img {
+    vertical-align: top;
+}
+
+/* 
+재사용성에 대한 의문 
+img태그는 검색 최적화를 위해서는 사용해야하지만 
+이번 과제에서의 여우는 디자인적 요소라고 생각된다 그러므로 css로 넣어줘도 된다고 생각하지만
+재사용성에 대한 측면에서 동물사진이 1억개 라면 code line 은 6억 line이 된다 그러면
+그냥 img태그에서 변경해주는 것이 좋은것일까?? 
+결론 : 생각을 해보니 나중에는 컴포넌트에 넣을 이미지를 API로 받아오니 이미지 태그를 이용하는것이 재사용성에서 옳다고 생각한다.
+ 
+
+.animal-fox {
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./images/animal07.png);
+}
+
+.animal-bear {
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./images/animal05.png);
+}
+
+*/
+
+.contents {
+    background-color: #93572e;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0px 10px 0px #4a260b;
+}
+
+.contents img {
+    vertical-align: top;
+}
+
+.text{
+    padding: 20px 17px;
+}
+
+h2 {
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+p {
+    color: #d7c0b3;
+}
