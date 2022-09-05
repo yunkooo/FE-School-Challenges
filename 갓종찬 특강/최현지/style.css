@@ -1,0 +1,36 @@
+/*1.스타일 리셋 2.정렬 3.디테일*/
+h1,p{
+  margin:0;
+}
+
+body{
+  background-image:url(/images/bg.png);
+  background-repeat:no-repeat;
+  background-size: cover;
+  margin:0 auto;
+}
+
+.image img{
+  width:auto;
+  display:block;
+  margin:0 auto;
+}
+.contents {
+  width:300px;
+  box-sizing : border-box;
+  background-color:#93572E;
+  text-align:left;
+  margin:0 auto;
+  padding:0 15px 20px 20px;
+  border-radius: 0 0 30px 30px;
+  border-bottom: 13px solid #512800;
+}
+.contents h1{
+  padding:5px 0;
+  color:white;
+  font-size:30px;
+}
+.contents p{
+  color:#ddd;
+  padding:10px 0;  
+}
