@@ -1,0 +1,11 @@
+body,
+ul,
+h1 {
+  margin: initial;
+  padding: initial;
+  font: inherit;
+}
+
+ul {
+  list-style: none;
+}
