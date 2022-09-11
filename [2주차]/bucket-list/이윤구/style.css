@@ -35,19 +35,16 @@ h1 {
 
 
 .container {
-    /* border: 1px solid black; */
     margin: 100px auto;
     width: 400px;
     height: 450px;
     box-shadow: 2px 4px 10px 1px  rgb(194,194,194);
     border-radius: 20px;
     overflow: hidden;
-    /* 이게 왜 되지?? */
 
 }
 
 .content {
     background-color: #efefef;
-    padding: 19px ;
-    /* height: 326.5px; */
+    padding: 20px ;
 }
