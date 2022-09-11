@@ -1,6 +1,14 @@
-h1, ul {
+* {
+    font-family: Arial;
+}
+
+h2, ul {
     margin: 0px;
     padding: 0px;
+}
+
+ul {
+    overflow: auto;
 }
 
 li {
@@ -22,7 +30,7 @@ body {
     background-color: #dddddd;
 }
 
-h1 {
+h2 {
     border-left: 10px solid #ff1394;
     padding: 0px 20px;
     color: #ff1394;
@@ -32,7 +40,6 @@ h1 {
     background-color: #ffffff;
     border-bottom: 5px solid #dddddd;
 }
-
 
 .container {
     margin: 100px auto;
@@ -47,4 +54,5 @@ h1 {
 .content {
     background-color: #efefef;
     padding: 20px ;
+    height: 100%;
 }
