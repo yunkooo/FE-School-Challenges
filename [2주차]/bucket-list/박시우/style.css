@@ -1,0 +1,103 @@
+@import url("reset.css");
+
+body {
+  background-color: #dddddd;
+}
+.bucket-list {
+  width: 400px;
+  height: 455px;
+  margin: 100px auto 0 auto;
+  border-radius: 30px;
+  background-color: #eeeeee;
+  -webkit-box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.24);
+}
+
+.bucket-list__header {
+  display: flow-root;
+  height: 110px;
+  border-radius: 30px 30px 0 0;
+  background-color: #ffffff;
+  border-bottom: 4px solid #dddddd;
+}
+
+.bucket-list__title {
+  height: 30px;
+  margin-top: 40px;
+  padding-left: 20px;
+  border-left: 10px solid #ff1493;
+  font-size: 25px;
+  font-weight: 800;
+  color: #ff1493;
+}
+
+.bucket-list__list {
+  height: calc(100% - 110px - 4px);
+  padding: 30px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.bucket-list__list li {
+  height: 46px;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 4px solid #aaaaaa;
+  border-radius: 5px;
+  background-color: #ffffff;
+  scale: 1;
+  -webkit-animation: makeSmaller 0.1s linear;
+  animation: makeSmaller 0.1s linear;
+}
+
+.bucket-list__list li:not(li:last-child) {
+  margin-bottom: 12px;
+}
+
+.bucket-list__list li:hover {
+  color: #1e91ff;
+  border-color: #1e91ff;
+  cursor: pointer;
+  scale: 1.05;
+
+  -webkit-animation: makeBigger 0.1s linear;
+  animation: makeBigger 0.1s linear;
+}
+
+@-webkit-keyframes makeBigger {
+  0% {
+    scale: 1;
+  }
+  100% {
+    scale: 1.05;
+  }
+}
+
+@keyframes makeBigger {
+  0% {
+    scale: 1;
+  }
+  100% {
+    scale: 1.05;
+  }
+}
+
+@-webkit-keyframes makeSmaller {
+  0% {
+    scale: 1.05;
+  }
+  100% {
+    scale: 1;
+  }
+}
+
+@keyframes makeSmaller {
+  0% {
+    scale: 1.05;
+  }
+  100% {
+    scale: 1;
+  }
+}
