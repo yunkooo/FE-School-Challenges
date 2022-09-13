@@ -3,13 +3,13 @@
 body {
   background-color: #dddddd;
 }
-
 .bucket-list {
   width: 400px;
   height: 455px;
   margin: 100px auto 0 auto;
   border-radius: 30px;
   background-color: #eeeeee;
+  -webkit-box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.24);
   box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.24);
 }
 
@@ -31,31 +31,73 @@ body {
   color: #ff1493;
 }
 
-.bucket-list__list-wrapper {
-}
-
 .bucket-list__list {
-  /* height: 100%; */
+  height: calc(100% - 110px - 4px);
   padding: 30px;
-  height: calc(100% - 110px - 4px - 30px);
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .bucket-list__list li {
   height: 46px;
   padding: 10px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   border: 4px solid #aaaaaa;
   border-radius: 5px;
   background-color: #ffffff;
+  scale: 1;
+  -webkit-animation: makeSmaller 0.1s linear;
+  animation: makeSmaller 0.1s linear;
 }
 
-.bucket-list__list li:not(:last-child) {
+.bucket-list__list li:not(li:last-child) {
   margin-bottom: 12px;
 }
 
-.bucket-list__list li:nth-child(2) {
+.bucket-list__list li:hover {
   color: #1e91ff;
   border-color: #1e91ff;
+  cursor: pointer;
+  scale: 1.05;
+
+  -webkit-animation: makeBigger 0.1s linear;
+  animation: makeBigger 0.1s linear;
+}
+
+@-webkit-keyframes makeBigger {
+  0% {
+    scale: 1;
+  }
+  100% {
+    scale: 1.05;
+  }
+}
+
+@keyframes makeBigger {
+  0% {
+    scale: 1;
+  }
+  100% {
+    scale: 1.05;
+  }
+}
+
+@-webkit-keyframes makeSmaller {
+  0% {
+    scale: 1.05;
+  }
+  100% {
+    scale: 1;
+  }
+}
+
+@keyframes makeSmaller {
+  0% {
+    scale: 1.05;
+  }
+  100% {
+    scale: 1;
+  }
 }
