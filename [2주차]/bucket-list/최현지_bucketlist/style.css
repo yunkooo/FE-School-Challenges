@@ -1,0 +1,61 @@
+h1{
+  margin:0;
+  padding:0;
+}
+ul{
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+body{
+  background-color: #DDDDDD;
+}
+.wrapper{
+  width:400px;
+  margin:100px auto;
+  text-align:center;
+  border:1px solid #DDDDDD;
+  border-radius:20px;
+  background-color:#EFEFEF;
+  box-sizing: border-box;  
+}
+.wrapper .contents-tit{
+  text-align:left;
+  border-bottom:3px solid #DDDDDD;
+  background-color:#ffffff; 
+  border-radius:20px 20px 0 0;
+  padding:20px 20px 20px 0;
+}
+.wrapper .contents-tit .tit{
+  border-left:10px solid #FF1493;
+  padding-left:20px;
+  font-size:23px;
+  color:#FF1493;
+  font-weight:900;
+
+}
+.wrapper .bucket-list{
+  position:relative;
+  box-sizing: border-box;
+  background-color:#EFEFEF; 
+  padding:10px 15px;
+  top:5px;
+  border-radius:20px;
+}
+.wrapper .bucket-list .list-contents{
+  font-weight:550;
+  text-align:left; 
+}
+.wrapper .bucket-list .list-contents .bucket{
+  border:3px solid #AAAAAA;
+  border-radius:5px;
+  font-size:14px;
+  background-color: #ffffff;
+  margin:10px;
+  padding:10px 10px;
+  color:#000000; 
+}
+.wrapper .bucket-list .list-contents .bucket-2{
+  border:3px solid #1E91FF;
+  color:#1E91FF;
+}
