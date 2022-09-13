@@ -1,0 +1,68 @@
+@font-face {
+   font-family: "Pretendard-Regular";
+   src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+      format("woff");
+   font-weight: 400;
+   font-style: normal;
+}
+* {
+   font-family: "Pretendard-Regular";
+}
+p,
+hr,
+h1 {
+   margin: 0;
+}
+body {
+   background-color: #dddddd;
+   font-family: "Noto Sans KR";
+}
+.wrapper {
+   width: 400px;
+   margin: 100px auto;
+   background-color: #efefef;
+   border-radius: 28px;
+   box-shadow: 3px 3px 10px 3px #c2c2c2;
+}
+.rectangle {
+   width: 10px;
+   height: 31px;
+   background-color: #ff1493;
+   display: inline-block;
+   margin-right: 23px;
+   vertical-align: middle;
+}
+header {
+   height: 111px;
+   line-height: 111px;
+   background-color: #ffffff;
+   color: #ff1493;
+   border-top-left-radius: 28px;
+   border-top-right-radius: 28px;
+   margin-bottom: 2px solid black;
+}
+h1 {
+   font-size: 24px;
+   display: inline-block;
+}
+main {
+   background-color: #efefef;
+   border-bottom-left-radius: 28px;
+   border-bottom-right-radius: 28px;
+   padding: 30px 30px 16px 30px;
+   border-top: 4px solid #dddddd;
+}
+p {
+   height: 38px;
+   line-height: 38px;
+   background-color: #ffffff;
+   color: #333333;
+   border: 4px solid #aaaaaa;
+   margin: 0 0 12px 0;
+   border-radius: 5px;
+   padding: 0 14px;
+}
+.blue {
+   border: 4px solid #1e91ff;
+   color: #1e91ff;
+}
