@@ -1,0 +1,118 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.02px;
+    color: #767676;
+    text-decoration: none;
+}
+
+
+.login-container {
+    border: 1px solid #DBDBDB;
+    border-radius: 5px;
+    width: 350px;
+    height: 140px;
+    position: relative;
+    margin: 10% auto;
+}
+
+
+h1 {
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    position: absolute;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    top: 19px;
+    left: 16px;
+}
+
+.winiv-logo {
+    position: relative;
+    width: 64px;
+    height: 18px;
+    vertical-align: bottom;
+}
+
+.login-button {
+    position: absolute;
+    width: 318px;
+    height: 40px;
+    left: 16px;
+    top: 50px;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 500;
+    border-radius: 4px;
+    background-color: #711BFF;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+
+}
+
+
+.info-search{
+    position: absolute;
+    bottom: 18px;
+    left: 16px;
+    width: 140px;
+    height: 16px;
+}
+
+
+.icon-lock {
+    width: 16px;
+    height: 16px;
+    float: left;
+    vertical-align: top;
+}
+
+.sign-up {
+    position: absolute;
+    right: 16px;
+    bottom: 18px;
+    width: 65px;
+    height: 16px;
+}
+
+.icon-user {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    vertical-align:middle;
+
+}
+.list-search {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+li {
+    float: left;
+    margin: 0 5px;
+    padding: 0;
+}
+
+.info-search ul li ~li::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 56px;
+    height: 11px;
+    width: 1px;
+    background: #767676;
+}
+
+    
