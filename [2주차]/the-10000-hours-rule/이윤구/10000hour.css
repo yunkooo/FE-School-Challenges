@@ -1,0 +1,54 @@
+@import "reset.css";
+
+body {
+    background-color: #5B2386;
+
+}
+
+#app {
+    position: relative;
+}
+
+.tit-timelaw {
+    margin: 20% auto;
+    text-align: center;
+    position: relative;
+}
+
+
+
+.title-clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.title-img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.img-txt {
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%,0);
+}
+
+.txt-desc {
+    text-align: center;
+    width: 493px;
+    height: 96px;
+    margin: 30% auto;
+    /* position: absolute;
+    left: 50%;
+    top: 170%;    
+    transform: translate(-50%,0); */
+}
+
+.tit-desc {
+
+}
