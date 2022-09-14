@@ -1,16 +1,27 @@
 @import "reset.css";
 
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #5B2386;
 
 }
 
 #app {
-    position: relative;
+    /* position: relative; */
 }
 
 .tit-timelaw {
-    margin: 20% auto;
+    display: block;
+    margin: 200px auto;
     text-align: center;
     position: relative;
 }
@@ -34,7 +45,7 @@ body {
 .img-txt {
     position: absolute;
     left: 50%;
-    top: 100%;
+    top: 25%;
     transform: translate(-50%,0);
 }
 
@@ -42,13 +53,76 @@ body {
     text-align: center;
     width: 493px;
     height: 96px;
-    margin: 30% auto;
-    /* position: absolute;
+    position: absolute;
     left: 50%;
-    top: 170%;    
-    transform: translate(-50%,0); */
+    top: 33%;    
+    transform: translate(-50%,0);
+    background-image: url(./img/quote.png);
+    font-family: 'GmarketSansMedium';
+    font-weight: 400;
+    font-size: 24;
+    line-height: 24px;
+    color: white;
+
 }
 
 .tit-desc {
-
+    font-weight: 700;
 }
+
+.cont-inp {
+    display: block;
+    width:765px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 400px;
+}
+
+.cont-inp p {
+    font-family: 'Gmarket Sans';
+    font-size: 24px;
+    line-height: 24px;
+    color: white;
+    margin-top: 40px ;
+}
+
+.cont-inp p input {
+    width: 228px;
+    height: 57px;
+    border-radius: 7px;
+    font-family: 'Gmarket Sans';
+    font-size: 24px;
+    color: #BABCBE;
+    text-align: center;
+    padding: 17px 41px 16px 39px;
+}
+
+.btn-exc {
+    font-family: 'Gmarket Sans';
+    color: #5B2386;
+    width: 565px;
+    height: 66px;
+    padding: 21px 49px;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: #FCEE21;
+    border-radius: 56px;
+    margin-top: 70px;
+}
+
+.blind {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.cont-result {
+    margin: 0 auto;
+    margin-top: 450px;
+    width: 663px;
+    text-align: center;
+}
+
